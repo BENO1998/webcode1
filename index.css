@@ -1,0 +1,54 @@
+body{
+    background-image: url(glass1.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.searchArea{
+    
+        display:flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+    .search{
+        height: 30px;
+        width: 500px;
+        margin-top: 20px;
+        border: solid rgb(255, 166, 0) 5px;
+
+    }
+    .submit{
+        background-color:rgba(255, 183, 0, 0.707);
+        width: 150px;
+        margin-top: 5px;
+        
+    }
+    .instruction{
+      text-align: center;
+        font-weight: bolder;
+        font-size: xx-large;
+        text-shadow: 0 0 #ff0000, 0 0 5px #ffc400;
+    
+    }
+    
+   .result{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.card{
+    background-color: rgb(229, 255, 127);
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;    
+    width:350px;
+    height:250px;
+    border:2px solid black;
+    text-align: center;
+    margin:10px;
+    font-size: 15px;
+    border-radius: 10px;
+    
+}  
